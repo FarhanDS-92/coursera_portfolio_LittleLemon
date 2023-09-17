@@ -1,0 +1,166 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 30%;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 84, 84);
+    border-radius: 20px;
+    width: 60%;
+    height: 50px;
+}
+
+a:link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: rgb(85, 84, 84);
+}
+a:active{
+    color: rgb(85, 84, 84);
+}
+
+nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    height: 100%;
+    width: 10%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+nav li:hover {
+    background-color: whitesmoke;
+    transition: 0.35s;
+}
+
+
+section {
+    width: 100%;
+    display: flex;
+}
+
+.promotions {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(".././assets/red_pasta.jpg");
+    background-position: center;
+    color: white;
+}
+
+.promotions article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promotions h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.promotions p {
+    margin: 0;
+}
+
+.promotions h1, .promotions p {
+    margin-left: 20px;
+}
+
+.container {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    height: 600px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+
+.card h2 {
+    margin: 0;
+}
+.card img {
+    align-self: center;
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+
+.card:hover {
+    background-color: black;
+    color: antiquewhite;
+    transition: 1s;
+}
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 2vw;
+}
+
+footer div {
+    flex: 1;
+}

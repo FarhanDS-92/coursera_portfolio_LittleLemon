@@ -5,48 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bare Bones Layout</title>
+    <title>Little Lemon</title>
     <meta name="description" content="A brief description">
-    <meta name="author" content="Farhan Dev">
+    <meta name="author" content="Little Lemon Resturant">
 
-    <!-- Open Graph Protocol -->
-    <meta property="og:title" content="A brief description">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.mysite">
-    <meta property="og:description" content="A brief description">
-    <meta property="og:image" content="image.png">
-
-    <!-- icons -->
-    <link rel="icon" href="/favicon.ico">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
 
     <!-- CSS files here -->
     <link rel="stylesheet" href="css/style.css">
+
+
+
 </head>
 
 <body>
+    <!-- Add Your Website name or logo here -->
     <header>
-        <!-- Add Your Website name or logo here -->
-        <p>Header</p>
+        <img src="./assets/Asset_14.png" alt="Little Lemon Logo">
     </header>
 
+    <!-- Add your website navigation here -->
     <nav>
-        <!-- Add your website navigation here -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul> 
     </nav>
 
+    <!-- Add your main content here -->
     <main>
-        <!-- Add your main content here -->
-        <h1>Heading</h1>
+        <section class="promotions">
+            <article>
+                <h1>30% Off This Weekend</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corrupti perspiciatis fugit. Cum molestias asperiores molestiae quo, quam obcaecati. Voluptas libero minus fuga, perspiciatis quam illo vero facilis aperiam.</p>
+            </article>
+        </section>
+
+
+        <section class="container">
+            <article class="card">
+                <h2>Our New Menu</h2>
+                <img src="./assets/skewers.jpg" alt="Mediterranean skewers">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odit accusantium, aperiam iste eius aliquid
+                    doloribus consequatur maiores, corrupti sit assumenda ipsum, minus vel expedita? Eligendi qui illo alias
+                    nulla?</p>
+            </article>
+
+
+            <article class="card">
+                <h2>Book a table</h2>
+                <img src="./assets/salad.jpg" alt="Mediterranean salad">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odit accusantium, aperiam iste eius aliquid
+                    doloribus consequatur maiores, corrupti sit assumenda ipsum, minus vel expedita? Eligendi qui illo alias
+                    nulla?</p>
+            </article>
+
+
+            <article class="card Opening">
+                <h2>Opening Hours</h2>
+                <img src="./assets/cook.jpg" alt="Generic cook">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odit accusantium, aperiam iste eius aliquid
+                    doloribus consequatur maiores, corrupti sit assumenda ipsum, minus vel expedita? Eligendi qui illo alias
+                    nulla?</p>
+                <p>Mon - Fri: 2pm - 10pm<br>Sat: 2pm - 11pm <br>Sun: 2pm - 9pm</p>
+                
+            </article>
+        </section>
     </main>
 
+    <!-- Add copyright notices and other footer content here -->
     <footer>
-        <!-- Add copyright notices and other footer content here -->
-        <p>Footer</p>
+        <div>
+            <img src="./assets/Asset_7.png" alt="Little Lemon Logo">
+        </div>
+
+
+        <div>
+            <p>Copyright Little Lemon</p>
+        </div>
     </footer>
 
     <!-- JavaScript files here -->
-    <script src="/js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
