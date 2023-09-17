@@ -38,11 +38,11 @@ nav {
 
 a:link{
     text-decoration: none;
-    color: antiquewhite;
+    color: whitesmoke;
 }
 a:visited{
     text-decoration: none;
-    color: antiquewhite;
+    color: whitesmoke;
 }
 a:hover{
     color: rgb(85, 84, 84);
@@ -71,7 +71,7 @@ nav li {
 }
 
 nav li:hover {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     transition: 0.35s;
 }
 
@@ -81,13 +81,80 @@ section {
     display: flex;
 }
 
-article {
-    flex: 1;
+.promotions {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(".././assets/red_pasta.jpg");
+    background-position: center;
+    color: white;
+}
+
+.promotions article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promotions h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.promotions p {
+    margin: 0;
+}
+
+.promotions h1, .promotions p {
+    margin-left: 20px;
+}
+
+.container {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    height: 600px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+
+.card h2 {
+    margin: 0;
+}
+.card img {
+    align-self: center;
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+
+.card:hover {
+    background-color: black;
+    color: antiquewhite;
+    transition: 1s;
 }
 
 footer {
     margin-top: 30px;
     display: flex;
+    justify-content: space-between;
 }
 
 footer img {
